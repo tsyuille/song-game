@@ -4,9 +4,25 @@
     box-sizing: border-box;
   }
   
-  body {
+body {
     height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
     background: #f8e5a6;
     text-align: center;
+    font-size: 62.5%;
   }
+
+.startButton {
+    border: 2px solid yellow;
+    background: black;
+    color: white;
+    padding: 14px 30px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 8px 2px;
+    cursor: pointer;
+}
+
+
