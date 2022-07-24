@@ -3,15 +3,30 @@
 <head>
   <meta charset="UTF-8">
 
-  <title>Charades</title>
+  <title>Name That Tune</title>
 
-  <link rel="stylesheet" href="chooseVerStyles.css">
-  <a href="card_time.html"></a>
-  <a href="card_word.html"></a>
+  <link rel="stylesheet" href="chooseGameStyles.css">
+  <a href="cardTime.html"></a>
+  <a href="cardWord.html"></a>
 </head>
 <body>
-   
+    <section class="version">
+        <section class="limitedTime">
+            <button class="versionButton" id="timed">Limited Time</button>
+            <p class="description">
+                For the limited time version, you will be given 10 song titles/artists. You will have 10
+                seconds to get everyone else to guess the song & artist. You will not be able to skip.
+            </p>
+        </section>
+        <section class="howMany">
+          <button class="versionButton" id="howMany">How Many</button>
+          <p class="description">
+              For the how many version, you will have 3 minutes to get everyone to guess as many songs/artists
+              as you can. In this version, you can tap the card to skip to the next one if you need to.
+          </p>
+      </section>
+    </section>
     
-  <script src="chooseVerscripts.js"></script>
+  <script src="chooseGameScripts.js"></script>
 </body>
 </html>
