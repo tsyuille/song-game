@@ -1,5 +1,10 @@
 document.querySelector('#timed').addEventListener('click', time)
+document.querySelector('#howMany').addEventListener('click', word)
 
-function start() {
-    window.location = "chooseGame.html"
+function time() {
+    window.location = "cardTime.html"
+}
+
+function word() {
+    window.location = "cardWord.html"
 }
